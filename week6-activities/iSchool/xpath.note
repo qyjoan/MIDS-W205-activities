@@ -1,0 +1,4 @@
+/html/body/p: selects the <p> element inside the <body> element
+//p: select all <p> elements inside the HTML
+//p[@class="Cname"] selects all <p> elements with attribute class="Cname" e.g. <p Class="Cname">
+//p[contains(@class, "Cname")] select all <p> elements with attribute "class" containing "Cname"
